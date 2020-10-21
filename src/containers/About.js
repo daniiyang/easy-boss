@@ -24,7 +24,7 @@ const About = () => (
                     )
                 }
                 <div>
-                    <svg width="34" height="16" viewBox="0 0 34 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <svg className="about-slider-button2" width="34" height="16" viewBox="0 0 34 16" fill="none" xmlns="http://www.w3.org/2000/svg">
                         <path d="M1 1L17 15L33.5 1" stroke="white"/>
                     </svg>
                 </div>

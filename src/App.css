@@ -208,13 +208,19 @@ root{
 
   color: #7D7D7D;
 }
-.fond-post-button-container {
+.fond-post-button-container1 {
+  display: none;
+}
+.fond-post-button-container2 {
   display: flex;
   justify-content: center;
   position: relative;
   margin-top: 20px;
 
   align-items: flex-end;
+}
+.fond-post-button-container3 {
+  display: none;
 }
 .fond-post-button {
   display: flex;
@@ -335,4 +341,174 @@ root{
 }
 .about-slider-button1 {
   transform: rotate(180deg);
+}
+
+
+
+@media (max-width: 1440px) {
+  .Page-container {
+    width: 680px;
+  }
+  .Header {
+    width: 680px;
+  }
+  .Projects {
+    width: 680px;
+  }
+  .Post1 {
+    margin-right: 70px;
+    margin-top: 10px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+  .Post3 {
+    display: none;
+  }
+  .fond-post-button-container1 {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-top: 20px;
+
+    align-items: flex-end;
+  }
+  .post1-grey-shadow {
+    background: #F3F3F3;
+    border-radius: 0px 0px 10px 10px;
+    width: 320px;
+    height: 460px;
+
+    margin-left: 0px;
+    margin-top: 0px;
+
+    position: absolute;
+  }
+  .post2-grey-shadow {
+    width: 320px;
+    height: 460px;
+  }
+  .post-image {
+    width: 290px;
+    height: 170px;
+
+    position: relative;
+  }
+  .post-text-container {
+    width: 280px;
+  }
+  .post-circle-container {
+    width: 280px;
+    margin-right: -25px;
+  }
+  .separator-line {
+    width: 33%;
+  }
+  .About {
+    width: 680px;
+  }
+  .about-row-or-column {
+    flex-direction: column;
+  }
+  .about-slider {
+    display: flex;
+    flex-direction: row;
+  }
+  .about-text-container {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+
+  .about-slider-button1 {
+    transform: rotate(90deg);
+    margin-top: 25px;
+  }
+  .about-slider-button2 {
+    transform: rotate(270deg);
+    margin-top: 25px;
+  }
+}
+
+@media (max-width: 740px) {
+  .Page-container {
+    width: 280px;
+    margin-bottom: -30px;
+  }
+  .Header {
+    width: 280px;
+  }
+  .Projects {
+    width: 280px;
+  }
+  .Post1 {
+    display: none;
+  }
+  .Post3 {
+    display: none;
+  }
+  .Post2 {
+    width: 280px;
+  }
+  .post2-grey-shadow {
+    width: 320px;
+    height: 460px;
+  }
+  .post-image {
+    width: 280px;
+    height: 160px;
+
+    position: relative;
+  }
+  .post-text-container {
+  }
+  .post-circle-container {
+    width: 280px;
+    margin-right: -25px;
+  }
+  .Separator-button {
+    margin-top: -25px;
+  }
+  .separator-line {
+    width: 10%;
+  }
+  .About {
+    width: 280px;
+    margin-top: 0px;
+  }
+  .about-row-or-column {
+    flex-direction: column;
+  }
+  .about-slider {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: -20px;
+
+  }
+  .about-text-container {
+    margin-left: 0px;
+    margin-top: 50px;
+  }
+
+  .about-slider-button1 {
+    transform: rotate(90deg);
+    margin-top: 25px;
+  }
+  .about-slider-button2 {
+    transform: rotate(270deg);
+    margin-top: 25px;
+  }
+  .about-button {
+    width: 100%;
+  }
+  .about-slider-text {
+    font-size: 30px;
+  }
+  .about-slider {
+    width: 280px;
+  }
+  .about-row-or-column {
+    width: 280px;
+  }
 }

@@ -1,10 +1,9 @@
-
 import React from "react";
 import data from "../data";
 import imgPost1 from "../images/imgPost1.PNG";
 import imgPost2 from "../images/imgPost2.PNG";
 import imgPost3 from "../images/imgPost3.PNG";
-import PostBottomContent from "../components/PostBottomContent";
+import PostBottomContent from "../components/AboutCarouselButtons";
 
 
 const Projects = () => (

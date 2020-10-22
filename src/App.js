@@ -7,7 +7,7 @@ import Projects from "./containers/Projects";
 
 
 const windowOuterWidth = window.outerWidth;
-let userType = "pc";
+export let userType = "pc";
 console.log(windowOuterWidth)
 
 if (windowOuterWidth > 1440) {
@@ -18,7 +18,7 @@ if (windowOuterWidth > 1440) {
     userType = "mobile";
 }
 
-console.log(userType)
+console.log(JSON.stringify(userType))
 
 
 function App() {
@@ -27,7 +27,7 @@ function App() {
         <div>
             <div className="Page-container">
                 <Header/>
-                <Projects userType={userType}/>
+                <Projects/>
                 <SeparatorButton/>
             </div>
         </div>

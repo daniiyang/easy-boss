@@ -338,11 +338,44 @@ root{
 .about-slider {
   display: flex;
   flex-direction: column;
+  justify-content: center;
 }
 .about-slider-button1 {
   transform: rotate(180deg);
+  margin-bottom: 40px;
 }
 
+
+.about-carousel-container {
+  width: 250px;
+  height: 300px;
+}
+.about-carousel-text {
+  font-style: normal;
+  font-weight: 300;
+  font-size: 50px;
+  line-height: 60px;
+  /* identical to box height, or 120% */
+
+  letter-spacing: -0.01em;
+
+  color: #FFFFFF;
+}
+.carousel-back {
+  margin-left: 40px;
+  border-style: none;
+  background: none;
+}
+.carousel-next {
+  margin-left: 40px;
+  border-style: none;
+  background: none;
+}
+carousel-next,
+carousel-back:active,
+button:focus {
+  outline: none;
+}
 
 
 @media (max-width: 1440px) {
@@ -429,6 +462,20 @@ root{
     transform: rotate(270deg);
     margin-top: 25px;
   }
+
+  .about-carousel-container {
+    width: 600px;
+    height: 200px;
+    margin-top: -100px;
+    margin-bottom: -50px;
+  }
+  .carousel-back {
+    margin-left: -55px;
+  }
+  .carousel-next {
+    margin-left: 650px;
+  }
+
 }
 
 @media (max-width: 740px) {
@@ -436,46 +483,57 @@ root{
     width: 280px;
     margin-bottom: -30px;
   }
+
   .Header {
     width: 280px;
   }
+
   .Projects {
     width: 280px;
   }
+
   .Post1 {
     display: none;
   }
+
   .Post3 {
     display: none;
   }
+
   .Post2 {
     width: 280px;
   }
+
   .post2-grey-shadow {
     width: 320px;
     height: 460px;
   }
+
   .post-image {
     width: 280px;
     height: 160px;
 
     position: relative;
   }
+
   .post-text-container {
   }
+
   .post-circle-container {
     width: 280px;
     margin-right: -25px;
   }
+
   .Separator-button {
     margin-top: -25px;
   }
+
   .separator-line {
     width: 10%;
   }
+
   .About {
     width: 280px;
-    margin-top: 0px;
   }
   .about-row-or-column {
     flex-direction: column;
@@ -483,8 +541,7 @@ root{
   .about-slider {
     display: flex;
     flex-direction: row;
-    margin-bottom: -20px;
-
+    margin-left: 20px;
   }
   .about-text-container {
     margin-left: 0px;
@@ -499,16 +556,25 @@ root{
     transform: rotate(270deg);
     margin-top: 25px;
   }
+
+  .about-carousel-container {
+    width: 230px;
+    height: 200px;
+    margin-top: -100px;
+    margin-bottom: -50px;
+  }
   .about-button {
     width: 100%;
   }
-  .about-slider-text {
-    font-size: 30px;
+  .about-carousel-text{
+    font-size: 26px;
   }
-  .about-slider {
-    width: 280px;
+  .carousel-back {
+    margin-left: -50px;
+
   }
-  .about-row-or-column {
-    width: 280px;
+  .carousel-next {
+    margin-left: 200px;
+    margin-top: -500px;
   }
 }

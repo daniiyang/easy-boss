@@ -457,17 +457,23 @@ button:focus {
   .about-slider-button1 {
     transform: rotate(90deg);
     margin-top: 25px;
+
+    position: absolute;
   }
   .about-slider-button2 {
     transform: rotate(270deg);
-    margin-top: 25px;
+    margin-top: -110px;
+
+    position: absolute;
   }
 
   .about-carousel-container {
     width: 600px;
     height: 200px;
-    margin-top: -100px;
-    margin-bottom: -50px;
+    margin-top: -20px;
+    margin-bottom: -100px;
+
+    position: relative;
   }
   .carousel-back {
     margin-left: -55px;
@@ -550,18 +556,24 @@ button:focus {
 
   .about-slider-button1 {
     transform: rotate(90deg);
-    margin-top: 25px;
+
+    position: absolute;
   }
   .about-slider-button2 {
     transform: rotate(270deg);
-    margin-top: 25px;
+    margin-top: -40px;
+    margin-left: 30px;
+
+    position: absolute;
   }
 
   .about-carousel-container {
     width: 230px;
     height: 200px;
-    margin-top: -100px;
-    margin-bottom: -50px;
+    margin-top: -50px;
+    margin-bottom: -150px;
+
+    position: relative;
   }
   .about-button {
     width: 100%;

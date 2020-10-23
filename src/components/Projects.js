@@ -1,10 +1,5 @@
 import React from "react";
-import imgPost1 from "../images/imgPost1.PNG";
-import imgPost2 from "../images/imgPost2.PNG";
-import imgPost3 from "../images/imgPost3.PNG";
-import PostBottomContent from "./AboutCarouselButtons";
 import {posts} from "../data";
-import {userType} from "../App";
 import {imgFondPostBotton} from "../images/svgs";
 
 //TODO: wave inside circle

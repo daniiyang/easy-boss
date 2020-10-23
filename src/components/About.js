@@ -1,6 +1,5 @@
 import React from "react";
 import HeaderCircle from "./HeaderCircle";
-import AboutCarouselButtons from "./AboutCarouselButtons";
 import {abouts, descriptionExample} from "../data";
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';

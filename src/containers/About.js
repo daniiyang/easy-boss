@@ -1,7 +1,7 @@
 import React from "react";
 import HeaderCircle from "../components/HeaderCircle";
 import AboutCarouselButtons from "../components/AboutCarouselButtons";
-import data, {descriptionExample} from "../data";
+import {abouts, descriptionExample} from "../data";
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import {userType} from "../App";
@@ -39,7 +39,7 @@ const About = () => {
                             <ButtonBack className="carousel-back">{prevArrow}</ButtonBack>
                             <Slider>
                                 {
-                                    data[1].abouts.map((about) =>
+                                    abouts.map((about) =>
                                         <Slide className="carousel-slide" index={about.id}>
                                             <span className="about-carousel-text">
                                                 {about.title}

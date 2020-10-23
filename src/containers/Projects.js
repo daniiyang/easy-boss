@@ -1,15 +1,15 @@
 import React from "react";
-import data from "../data";
 import imgPost1 from "../images/imgPost1.PNG";
 import imgPost2 from "../images/imgPost2.PNG";
 import imgPost3 from "../images/imgPost3.PNG";
 import PostBottomContent from "../components/AboutCarouselButtons";
+import {posts} from "../data";
 
-
+//TODO: wave inside circle
 const Projects = () => (
     <div className="Projects">
         {
-            data[0].posts.map((post) =>
+            posts.map((post) =>
                 <div className={"Post" + post.id}>
                     <div className={"post" + post.id + "-grey-shadow"}/>
                     <img className="post-image" src={post.image}/>
@@ -25,7 +25,24 @@ const Projects = () => (
 
                     <div className="post-circle-column">
                         <div className="post-circle-container">
-                            <img className="post-circle" src={post.circleData}/>
+
+
+
+
+                            <div className="post-circle-graph-container">
+                                <span className="post-circle-graph-grey">
+                                    <span className="post-circle-graph-white">
+                                        <span className="post-circle-graph-green">
+                                            {post.circleData}
+                                        </span>
+
+                                    </span>
+                                </span>
+
+                            </div>
+
+
+
 
                             <div className="post-circle-column">
                                 <span className="post-circle-text">

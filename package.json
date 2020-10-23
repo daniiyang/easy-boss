@@ -7,7 +7,10 @@
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
     "@testing-library/user-event": "^7.2.1",
+    "axios": "^0.20.0",
     "bootstrap": "^4.5.3",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
     "infinite-react-carousel": "^1.2.11",
     "node-sass": "^4.14.1",
     "nuka-carousel": "^4.7.1",
@@ -44,5 +47,17 @@
   "devDependencies": {
     "gh-pages": "^3.1.0",
     "react-awesome-slider": "^4.1.0"
+  },
+  "description": "Превосходнейшая красота, созданная без нарушения режима, \r с удовольствием, и даже ЕГЭ порешать успелось.",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/daniiyang/easy-boss.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/daniiyang/easy-boss/issues"
   }
 }

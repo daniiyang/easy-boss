@@ -145,11 +145,45 @@ root{
 
   position: absolute;
 }
+.post-circle-graph-container {
+  margin-top: 5px;
+  margin-right: 15px;
+}
+.post-circle-graph-grey {
+  height: 50px;
+  width: 50px;
+  background-color: #E0E0E0;
+  border-radius: 50%;
+  display: inline-block;
+}
+.post-circle-graph-white {
+  height: 42px;
+  width: 42px;
+  background-color: white;
+  border-radius: 50%;
+  margin-top: 4px;
+  margin-left: 4px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.post-circle-graph-green {
+  font-weight: bold;
+  font-size: 12px;
+  color: #8DCA78;
+  position: relative;
+}
+.post-circle-graph-wave{
+  position: absolute;
+  border-radius: 50%;
+}
+.post-circle-graph-wave-img{
+  width: 120%;
+}
 .post-circle {
   width: 50px;
   height: 50px;
-  margin-top: 5px;
-  margin-right: 15px;
 }
 .post-circle-container {
   margin-top: 25px;

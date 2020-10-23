@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "/easy-boss/static/css/main.261a45fe.chunk.css",
+    "main.js": "/easy-boss/static/js/main.1997756e.chunk.js",
+    "main.js.map": "/easy-boss/static/js/main.1997756e.chunk.js.map",
+    "runtime-main.js": "/easy-boss/static/js/runtime-main.72258179.js",
+    "runtime-main.js.map": "/easy-boss/static/js/runtime-main.72258179.js.map",
+    "static/css/2.1a0a2c47.chunk.css": "/easy-boss/static/css/2.1a0a2c47.chunk.css",
+    "static/js/2.ede89a9c.chunk.js": "/easy-boss/static/js/2.ede89a9c.chunk.js",
+    "static/js/2.ede89a9c.chunk.js.map": "/easy-boss/static/js/2.ede89a9c.chunk.js.map",
+    "index.html": "/easy-boss/index.html",
+    "precache-manifest.c21940b29ddb7f2d59ee20a1909e329f.js": "/easy-boss/precache-manifest.c21940b29ddb7f2d59ee20a1909e329f.js",
+    "service-worker.js": "/easy-boss/service-worker.js",
+    "static/css/2.1a0a2c47.chunk.css.map": "/easy-boss/static/css/2.1a0a2c47.chunk.css.map",
+    "static/css/main.261a45fe.chunk.css.map": "/easy-boss/static/css/main.261a45fe.chunk.css.map",
+    "static/js/2.ede89a9c.chunk.js.LICENSE.txt": "/easy-boss/static/js/2.ede89a9c.chunk.js.LICENSE.txt",
+    "static/media/circleWave1.PNG": "/easy-boss/static/media/circleWave1.0d2a0e1d.PNG",
+    "static/media/circleWave2.PNG": "/easy-boss/static/media/circleWave2.861a48c4.PNG",
+    "static/media/imgPost1.PNG": "/easy-boss/static/media/imgPost1.82551672.PNG",
+    "static/media/imgPost2.PNG": "/easy-boss/static/media/imgPost2.31c66c22.PNG",
+    "static/media/imgPost3.PNG": "/easy-boss/static/media/imgPost3.832a0ad8.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.72258179.js",
+    "static/css/2.1a0a2c47.chunk.css",
+    "static/js/2.ede89a9c.chunk.js",
+    "static/css/main.261a45fe.chunk.css",
+    "static/js/main.1997756e.chunk.js"
+  ]
+}

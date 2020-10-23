@@ -1,6 +1,9 @@
 {
   "name": "easy-boss",
   "version": "0.1.0",
+  "engines": {
+    "node": "12.18.3"
+  },
   "private": true,
   "homepage": "https://daniiyang.github.io/easy-boss/",
   "dependencies": {
@@ -13,6 +16,7 @@
     "express": "^4.17.1",
     "infinite-react-carousel": "^1.2.11",
     "node-sass": "^4.14.1",
+    "nodemon": "^2.0.3",
     "nuka-carousel": "^4.7.1",
     "pure-react-carousel": "^1.27.5",
     "re-carousel": "^2.4.0",

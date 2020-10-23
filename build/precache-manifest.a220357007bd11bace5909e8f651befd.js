@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "59cb1986c9155639cce5f49b613d5c37",
+    "revision": "3858ed709fe0a7d78369bd83f1081dbc",
     "url": "/easy-boss/index.html"
   },
   {

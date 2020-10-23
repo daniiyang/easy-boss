@@ -186,13 +186,6 @@ root{
   width: 12%;
   margin-top: 5px;
 }
-
-
-
-
-
-
-
 .post-circle {
   width: 50px;
   height: 50px;
@@ -289,12 +282,9 @@ root{
 
   opacity: 0.6;
 }
-
-
 .About {
   margin-top: 30px;
   margin-bottom: 70px;
-
 }
 .about-header-text {
   font-style: normal;
@@ -344,7 +334,6 @@ root{
   font-weight: bold;
   font-size: 14px;
   line-height: 20px;
-  /* or 143% */
 
   text-align: center;
 
@@ -369,7 +358,6 @@ root{
   font-weight: 300;
   font-size: 50px;
   line-height: 60px;
-  /* identical to box height, or 120% */
 
   letter-spacing: -0.01em;
 
@@ -390,8 +378,6 @@ root{
   transform: rotate(180deg);
   margin-bottom: 40px;
 }
-
-
 .about-carousel-container {
   width: 250px;
   height: 300px;
@@ -401,7 +387,6 @@ root{
   font-weight: 300;
   font-size: 50px;
   line-height: 60px;
-  /* identical to box height, or 120% */
 
   letter-spacing: -0.01em;
 
@@ -530,6 +515,7 @@ button:focus {
 
 }
 
+
 @media (max-width: 740px) {
   .Page-container {
     width: 280px;
@@ -555,7 +541,6 @@ button:focus {
   .Post2 {
     width: 280px;
   }
-
   .post2-grey-shadow {
     width: 320px;
     height: 460px;
@@ -570,7 +555,6 @@ button:focus {
 
   .post-text-container {
   }
-
   .post-circle-container {
     width: 280px;
     margin-right: -25px;
@@ -583,7 +567,6 @@ button:focus {
   .separator-line {
     width: 10%;
   }
-
   .About {
     width: 280px;
   }
@@ -612,7 +595,6 @@ button:focus {
 
     position: absolute;
   }
-
   .about-carousel-container {
     width: 230px;
     height: 200px;
@@ -629,7 +611,6 @@ button:focus {
   }
   .carousel-back {
     margin-left: -50px;
-
   }
   .carousel-next {
     margin-left: 200px;

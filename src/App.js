@@ -1,9 +1,9 @@
 import React from 'react';
 import './App.css';
-import Header from "./containers/Header";
-import About from "./containers/About";
+import Header from "./components/Header";
+import About from "./components/About";
 import SeparatorButton from "./components/SeparatorButton";
-import Projects from "./containers/Projects";
+import Projects from "./components/Projects";
 
 
 const windowOuterWidth = window.outerWidth;

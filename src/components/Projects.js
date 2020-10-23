@@ -2,8 +2,9 @@ import React from "react";
 import imgPost1 from "../images/imgPost1.PNG";
 import imgPost2 from "../images/imgPost2.PNG";
 import imgPost3 from "../images/imgPost3.PNG";
-import PostBottomContent from "../components/AboutCarouselButtons";
+import PostBottomContent from "./AboutCarouselButtons";
 import {posts} from "../data";
+import {userType} from "../App";
 
 //TODO: wave inside circle
 const Projects = () => (
@@ -35,7 +36,7 @@ const Projects = () => (
                                         <span className="post-circle-graph-green">
                                             {post.circleData}
                                         </span>
-
+                                        <img className={(post.id === 2) ? "post-circle-graph-wave2" : "post-circle-graph-wave1"} src={post.circleWave}/>
                                     </span>
                                 </span>
 

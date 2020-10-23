@@ -1,6 +1,8 @@
 import imgPost1 from "../images/imgPost1.PNG";
 import imgPost2 from "../images/imgPost2.PNG";
 import imgPost3 from "../images/imgPost3.PNG";
+import circleWave1 from "../images/circleWave1.PNG";
+import circleWave2 from "../images/circleWave2.PNG";
 import {imgCircle1, imgCircle2} from "../images/svgs";
 
 
@@ -16,7 +18,7 @@ export const posts =
             image: imgPost1,
             shadowStyle: 1,
             circleData: "37%",
-            circleWave: imgCircle1,
+            circleWave: circleWave1,
         },
         {
             id: 2,
@@ -25,7 +27,7 @@ export const posts =
             image: imgPost2,
             shadowStyle: 2,
             circleData: "84%",
-            circleWave: imgCircle2,
+            circleWave: circleWave2,
         },
         {
             id: 3,
@@ -34,7 +36,7 @@ export const posts =
             image: imgPost3,
             shadowStyle: 3,
             circleData: "10%",
-            circleWave: imgCircle1,
+            circleWave: circleWave1,
         },
     ];
 

@@ -1,5 +1,5 @@
 import React from "react";
-import HeaderCircle from "../components/HeaderCircle";
+import HeaderCircle from "./HeaderCircle";
 
 
 const Header = () => (

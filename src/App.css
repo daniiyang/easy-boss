@@ -174,13 +174,25 @@ root{
   color: #8DCA78;
   position: relative;
 }
-.post-circle-graph-wave{
+.post-circle-graph-wave1 {
   position: absolute;
   border-radius: 50%;
+  width: 11%;
+  margin-top: 23px;
 }
-.post-circle-graph-wave-img{
-  width: 120%;
+.post-circle-graph-wave2 {
+  position: absolute;
+  border-radius: 50%;
+  width: 12%;
+  margin-top: 5px;
 }
+
+
+
+
+
+
+
 .post-circle {
   width: 50px;
   height: 50px;

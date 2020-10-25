@@ -1,20 +1,11 @@
 import React from "react";
-import HeaderCircle from "../components/HeaderCircle";
-import AboutCarouselButtons from "../components/AboutCarouselButtons";
-import data, {descriptionExample} from "../data";
+import HeaderCircle from "./HeaderCircle";
+import {abouts, descriptionExample} from "../data";
 import { CarouselProvider, Slider, Slide, ButtonBack, ButtonNext } from 'pure-react-carousel';
 import 'pure-react-carousel/dist/react-carousel.es.css';
 import {userType} from "../App";
+import {nextArrow, prevArrow} from "../images/svgs";
 
-
-const prevArrow =
-    <svg className="about-slider-button1" width="34" height="16" viewBox="0 0 34 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M1 1L17 15L33.5 1" stroke="white"/>
-    </svg>;
-const nextArrow =
-    <svg className="about-slider-button2" width="34" height="16" viewBox="0 0 34 16" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M1 1L17 15L33.5 1" stroke="white"/>
-    </svg>;
 
 
 const About = () => {
@@ -39,7 +30,7 @@ const About = () => {
                             <ButtonBack className="carousel-back">{prevArrow}</ButtonBack>
                             <Slider>
                                 {
-                                    data[1].abouts.map((about) =>
+                                    abouts.map((about) =>
                                         <Slide className="carousel-slide" index={about.id}>
                                             <span className="about-carousel-text">
                                                 {about.title}

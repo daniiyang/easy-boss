@@ -1,0 +1,30 @@
+{
+  "files": {
+    "main.css": "C:/Program Files/Git/easy-boss/build/static/css/main.493ef3f0.chunk.css",
+    "main.js": "C:/Program Files/Git/easy-boss/build/static/js/main.bdd09935.chunk.js",
+    "main.js.map": "C:/Program Files/Git/easy-boss/build/static/js/main.bdd09935.chunk.js.map",
+    "runtime-main.js": "C:/Program Files/Git/easy-boss/build/static/js/runtime-main.59aac9d8.js",
+    "runtime-main.js.map": "C:/Program Files/Git/easy-boss/build/static/js/runtime-main.59aac9d8.js.map",
+    "static/css/2.1a0a2c47.chunk.css": "C:/Program Files/Git/easy-boss/build/static/css/2.1a0a2c47.chunk.css",
+    "static/js/2.ede89a9c.chunk.js": "C:/Program Files/Git/easy-boss/build/static/js/2.ede89a9c.chunk.js",
+    "static/js/2.ede89a9c.chunk.js.map": "C:/Program Files/Git/easy-boss/build/static/js/2.ede89a9c.chunk.js.map",
+    "index.html": "C:/Program Files/Git/easy-boss/build/index.html",
+    "precache-manifest.91ea09648bfc2c9129f523eec79d8928.js": "C:/Program Files/Git/easy-boss/build/precache-manifest.91ea09648bfc2c9129f523eec79d8928.js",
+    "service-worker.js": "C:/Program Files/Git/easy-boss/build/service-worker.js",
+    "static/css/2.1a0a2c47.chunk.css.map": "C:/Program Files/Git/easy-boss/build/static/css/2.1a0a2c47.chunk.css.map",
+    "static/css/main.493ef3f0.chunk.css.map": "C:/Program Files/Git/easy-boss/build/static/css/main.493ef3f0.chunk.css.map",
+    "static/js/2.ede89a9c.chunk.js.LICENSE.txt": "C:/Program Files/Git/easy-boss/build/static/js/2.ede89a9c.chunk.js.LICENSE.txt",
+    "static/media/circleWave1.PNG": "C:/Program Files/Git/easy-boss/build/static/media/circleWave1.0d2a0e1d.PNG",
+    "static/media/circleWave2.PNG": "C:/Program Files/Git/easy-boss/build/static/media/circleWave2.861a48c4.PNG",
+    "static/media/imgPost1.PNG": "C:/Program Files/Git/easy-boss/build/static/media/imgPost1.82551672.PNG",
+    "static/media/imgPost2.PNG": "C:/Program Files/Git/easy-boss/build/static/media/imgPost2.31c66c22.PNG",
+    "static/media/imgPost3.PNG": "C:/Program Files/Git/easy-boss/build/static/media/imgPost3.832a0ad8.PNG"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.59aac9d8.js",
+    "static/css/2.1a0a2c47.chunk.css",
+    "static/js/2.ede89a9c.chunk.js",
+    "static/css/main.493ef3f0.chunk.css",
+    "static/js/main.bdd09935.chunk.js"
+  ]
+}
